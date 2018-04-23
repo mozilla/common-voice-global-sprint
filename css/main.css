@@ -216,7 +216,7 @@ h2 {
 
 footer {
   background:
-    url('/img/img-planet-closeup.svg') 150% 100% no-repeat,
+    url('../img/img-planet-closeup.svg') 150% 100% no-repeat,
     linear-gradient(to top, #535382, #2d2c55);
   padding: 30px 50px 0px 50px;
   display: flex;
@@ -350,7 +350,7 @@ footer .footer-content a {
 }
 
 .home header {
-  background: #f3f3f3 url('/img/img-header.svg');
+  background: #f3f3f3 url('../img/img-header.svg');
   background-size: cover;
   background-position: inherit;
   text-align: center;
@@ -957,7 +957,7 @@ h3.content-title {
 }
 
 .title-frame {
-  background: url('/img/title-frame.png');
+  background: url('../img/title-frame.png');
   background-size: contain;
   display: inline-block;
   height: 20px;
@@ -965,7 +965,7 @@ h3.content-title {
 }
 
 .title-frame-grey {
-  background: url('/img/title-frame-grey.png');
+  background: url('../img/title-frame-grey.png');
   background-size: contain;
   display: inline-block;
   height: 20px;
