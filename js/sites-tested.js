@@ -1,12 +1,12 @@
 (function() {
   'use strict';
 
-  var END_DATE = new Date('2017-10-01');
+  var END_DATE = new Date('2018-05-10');
   var today = new Date();
   var distance = END_DATE - today;
   var API_KEY = 'AIzaSyDziLuMxVaWGuE4BVh-gxvuY9y7evusUx0';
   var RANGE = 'A2:E';
-  var SPREADSHEET_ID = '1ddte9oFxtIIp9AzWe9oGwBIscokjvKoFx6WvAiQmznY';
+  var SPREADSHEET_ID = '15HK8boTLejnOK5UuOkNQ3OLphEL8H4rOy_QtOBQbcks';
   var publicEndpoint = 'https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID +
     '/values/' + RANGE + '?key=' + API_KEY;
 

@@ -1,11 +1,11 @@
-title: Firefox Quantum Sprint
+title: Common Voice Global Sprint
 subtitle:
 email: community-development@mozilla.com
 twitter: https://twitter.com/mozilla
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://firefoxsprint.mozilla.community" # the base hostname & protocol for your site
+url: "https://mozilla.github.io/common-voice-global-sprint" # the base hostname & protocol for your site
 github:
-  repo: "mozilla/firefox57-sprint"
+  repo: "mozilla/common-voice-global-sprint"
   branch: "master"
 
 

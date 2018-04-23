@@ -3,7 +3,7 @@
 
   var API_KEY = 'AIzaSyDziLuMxVaWGuE4BVh-gxvuY9y7evusUx0';
   var RANGE = 'A2:E';
-  var SPREADSHEET_ID = '1ddte9oFxtIIp9AzWe9oGwBIscokjvKoFx6WvAiQmznY';
+  var SPREADSHEET_ID = '15HK8boTLejnOK5UuOkNQ3OLphEL8H4rOy_QtOBQbcks';
   var publicEndpoint = 'https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID +
     '/values/' + RANGE + '?key=' + API_KEY;
 
@@ -17,9 +17,8 @@
         var data = result.values.map(function(entry) {
           return {
             Nickname: entry[1],
-            SiteTested: entry[2],
-            IssueFound: entry[3],
-            IssueLink: entry[4]
+            Language: entry[2],
+            Sentence: entry[3],
           };
         }).filter(function(entry) {
           return entry.Nickname;
@@ -38,8 +37,6 @@
     if (groupedByNickname.length === 0) {
       document.querySelector('#no-results').classList.remove('hidden');
     }
-
-    console.log('groupedByNickname', groupedByNickname);
 
     groupedByNickname.forEach(function(entry) {
       var row = document.createElement('tr');
@@ -62,21 +59,16 @@
       });
 
       if (existingNicknameEntry) {
-        // only count the same domain once
-        const existingDomain = existingNicknameEntry.entries.find((existingEntry) => {
-          return entry.SiteTested == existingEntry.SiteTested;
+        // only count the same sentence once
+        const existingSentence = existingNicknameEntry.entries.find((existingEntry) => {
+          return entry.Sentence == existingEntry.Sentence;
         });
 
-        if (existingDomain) {
+        if (existingSentence) {
           return;
         }
 
         existingNicknameEntry.amount++;
-        existingNicknameEntry.issues =
-          entry.IssueFound === 'Yes' ?
-          existingNicknameEntry.issues + 1 :
-          existingNicknameEntry.issues;
-        existingNicknameEntry.score = existingNicknameEntry.amount + 3 * existingNicknameEntry.issues;
         existingNicknameEntry.entries.push(entry);
         return;
       }
@@ -84,9 +76,6 @@
       const newNicknameEntry = {
         name: entry.Nickname,
         amount: 1,
-        issues: entry.IssueFound === 'Yes' ? 1 : 0,
-        score: 1 + (entry.IssueFound === 'Yes' ? 3 * 1 : 0),
-        entries: [entry],
       };
 
       result.push(newNicknameEntry);
