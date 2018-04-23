@@ -2,7 +2,7 @@ title: Common Voice Global Sprint
 subtitle:
 email: community-development@mozilla.com
 twitter: https://twitter.com/mozilla
-baseurl: "common-voice-global-sprint" # the subpath of your site, e.g. /blog
+baseurl: "/common-voice-global-sprint" # the subpath of your site, e.g. /blog
 url: "https://mozilla.github.io/" # the base hostname & protocol for your site
 github:
   repo: "mozilla/common-voice-global-sprint"
