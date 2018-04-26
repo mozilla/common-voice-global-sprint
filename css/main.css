@@ -177,6 +177,12 @@ h2 {
   padding: 10px 50px;
 }
 
+#sentenceInput {
+  width: 50%;
+  height: 10rem;
+  display: block;
+} 
+
 .map-canvas {
   height: 30rem;
 }
