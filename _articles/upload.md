@@ -20,11 +20,23 @@ title: "Reporting"
     <div class="form-group">
       <label for="nicknameInput">Nickname</label>
       <input type="text" class="form-control" id="nicknameInput" placeholder="Enter your nickname">
-      <p id="nickname" class="form-text text-muted">This nickname will show up in several places and is public.</p>
     </div>
     <div class="form-group">
-      <label for="sentenceInput">Please enter your sentences here. You can enter multiple.</label>
-      <input type="input" class="form-control" id="sentenceInput" placeholder="https://www.mozilla.org">
+      <label for="emailInput">Email (required)</label>
+      <input type="text" class="form-control" id="emailInput" placeholder="Enter your email address">
+      <p class="form-text text-muted">This address is required for any questions we might have.</p>
+    </div>
+    <div class="form-group">
+      <label for="sentenceInput">Please enter your sentences here. You can enter multiple. (required)</label>
+      <textarea id="sentenceInput"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="languageInput">Language (required)</label>
+      <input type="text" class="form-control" id="sourceInput" placeholder="Language of the sentences">
+    </div>
+    <div class="form-group">
+      <label for="sourceInput">Link to the source of the sentences</label>
+      <input type="text" class="form-control" id="sourceInput" placeholder="Enter your source">
     </div>
     <p class="form-error hidden">Please check all form fields to make sure everything required is filled out!</p>
     <button type="submit" class="button submit-button">Submit</button>
