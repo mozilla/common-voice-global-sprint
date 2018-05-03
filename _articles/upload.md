@@ -32,18 +32,21 @@ title: "Reporting"
     </div>
     <div class="form-group">
       <label for="languageInput">Language (required)</label>
-      <input type="text" class="form-control" id="sourceInput" placeholder="Language of the sentences">
+      <input type="text" class="form-control" id="languageInput" placeholder="Language of the sentences">
     </div>
     <div class="form-group">
       <label for="sourceInput">Link to the source of the sentences</label>
       <input type="text" class="form-control" id="sourceInput" placeholder="Enter your source">
+    </div>
+    <div class="form-group">
+      <input type="checkbox" class="form-control" id="verifyInput"> I certify that I either created these sentences, or got them from a public domain source (required)
     </div>
     <p class="form-error hidden">Please check all form fields to make sure everything required is filled out!</p>
     <button type="submit" class="button submit-button">Submit</button>
   </form>
 
   <div class="afterSubmitInfo hidden">
-    <h2>Thanks for submitting your report!</h2>
+    <h2>Thanks for submitting your sentences!</h2>
     <a href="{{ site.baseurl }}/upload/">Add new sentences</a>
   </div>
 </div>

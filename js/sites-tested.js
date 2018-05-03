@@ -51,7 +51,7 @@
     var testedSites = filterDuplicates(sanitizedSites);
     var uniqueTestedSites = getUnique(testedSites);
     var totalSitesTested = uniqueTestedSites.length;
-    sitesTestedElement.textContent = totalSitesTested + ' sites tested already!';
+    sitesTestedElement.textContent = totalSitesTested + ' uploads already!';
     sitesTestedElement.classList.remove('hidden');
   }
 
