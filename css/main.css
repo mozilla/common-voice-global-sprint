@@ -181,7 +181,7 @@ h2 {
   width: 50%;
   height: 10rem;
   display: block;
-} 
+}
 
 .map-canvas {
   height: 30rem;
@@ -625,6 +625,10 @@ footer .footer-content a {
 
 .form-error {
   color: #ff0000;
+}
+
+.form-group {
+  margin-bottom: 20px;
 }
 
 .content-box {
