@@ -566,18 +566,6 @@ footer .footer-content a {
   }
 }
 
-.reporting {
-  font-family: 'Fira Sans';
-}
-
-.form-error {
-  color: #ff0000;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
 #no-target {
   display: none;
 }
@@ -622,11 +610,30 @@ footer .footer-content a {
   }
 }
 
+.reporting {
+  font-family: 'Fira Sans';
+}
+
+.form-error {
+  color: #ff0000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
 #reporting-form label,
 #reporting-form input,
 #reporting-form button,
 #reporting-form fieldset {
   display: block;
+}
+
+#reporting-form input[type="checkbox"] {
+  width: auto;
+  display: inline;
+  height: 100%;
+  margin: 0;
 }
 
 #reporting-form label {
