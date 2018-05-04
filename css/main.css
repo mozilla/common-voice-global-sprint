@@ -631,6 +631,10 @@ footer .footer-content a {
   margin-bottom: 20px;
 }
 
+#no-target {
+  display: none;
+}
+
 .content-box {
   border-radius: 2px;
   background-color: #ffffff;

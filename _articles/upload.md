@@ -54,6 +54,6 @@ title: "Reporting"
 </div>
 
 <!-- used as target after form submission so we don't go away from our site -->
-<iframe src="#" id="no-target" name="no-target" style="display:none"></iframe>
+<iframe src="#" id="no-target" name="no-target"></iframe>
 
 <script src="{{ site.baseurl }}/js/upload.js"></script>
