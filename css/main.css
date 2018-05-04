@@ -427,59 +427,6 @@ footer .footer-content a {
   }
 }
 
-.home .action-buttons {
-  display: flex;
-  text-align: center;
-  width: 100%;
-}
-
-.home .action-buttons .box {
-  padding: 40px 0;
-  flex: 1;
-  color: #ffffff;
-  font-family: 'Fira Sans';
-  height: 440px;
-  text-decoration: none;
-  display: block;
-}
-
-.home .action-buttons .box p:hover {
-  text-decoration: underline;
-}
-
-.home .action-buttons .box:nth-child(1) {
-  background-color: #59b5b0;
-}
-
-.home .action-buttons .box:nth-child(2) {
-  background-color: #7474b5;
-}
-
-.home .action-buttons .box h3 {
-  font-size: 24px;
-  letter-spacing: -0.5px;
-  margin-bottom: 0;
-}
-
-.home .action-buttons .box h2 {
-  margin-top: 0;
-  font-family: 'Fira Sans';
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  color: #FFF;
-}
-
-@media all and (max-width: 768px) {
-  .home .action-buttons {
-    flex-direction: column;
-  }
-
-  .home .action-buttons img {
-    width: 70%;
-  }
-}
-
 .info-buttons {
   display: flex;
   text-align: center;
