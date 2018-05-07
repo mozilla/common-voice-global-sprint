@@ -11,7 +11,7 @@ title: "Reporting"
   <span class="capitalize">T</span>
   <span class="capitalize-content">
     hanks for helping collecting sentences for Common Voice!<br />
-    Please make sure that the sentences you enter below are public domain.
+    Please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.
   </span>
 </h2>
 
@@ -39,7 +39,7 @@ title: "Reporting"
       <input type="text" class="form-control" id="sourceInput" placeholder="Enter your source">
     </div>
     <div class="form-group">
-      <input type="checkbox" class="form-control" id="verifyInput"> I certify that I either created these sentences, or got them from a public domain source (required)
+      <input type="checkbox" class="form-control" id="verifyInput"> I certify that I either created these sentences, or got them from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a> (required)
     </div>
     <p class="form-error hidden">Please check all form fields to make sure everything required is filled out!</p>
     <button type="submit" class="button submit-button">Submit</button>
