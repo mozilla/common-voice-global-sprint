@@ -11,7 +11,8 @@ title: "Reporting"
   <span class="capitalize">T</span>
   <span class="capitalize-content">
     hanks for helping collecting sentences for Common Voice!<br />
-    Please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.
+    Please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.<br />
+    Please also read the <a href="{{ site.baseurl }}/faq/">FAQ on how to collect sentences</a>.
   </span>
 </h2>
 
@@ -27,7 +28,7 @@ title: "Reporting"
       <p class="form-text text-muted">This address is required for any questions we might have.</p>
     </div>
     <div class="form-group">
-      <label for="sentenceInput">Please enter your sentences here. You can enter multiple. (required)</label>
+      <label for="sentenceInput">Enter your sentences here. Please read the <a href="{{ site.baseurl }}/faq/">FAQ</a> first. (required)</label>
       <textarea id="sentenceInput"></textarea>
     </div>
     <div class="form-group">
