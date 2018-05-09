@@ -1,11 +1,11 @@
 ---
 layout: simple
-title: Frequently Asked Questions
+title: How to Collect Sentences
 ---
 
-# Frequently Asked Questions
+# How to Collect Sentences
 
-<div class="content-box faq" markdown="1">
+<div class="content-box" markdown="1">
 
 There are two ways to get sentences:
 

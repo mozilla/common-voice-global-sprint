@@ -12,7 +12,7 @@ title: "Reporting"
   <span class="capitalize-content">
     hanks for helping collecting sentences for Common Voice!<br />
     Please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.<br />
-    Please also read the <a href="{{ site.baseurl }}/faq/">FAQ on how to collect sentences</a>.
+    Please also read the <a href="{{ site.baseurl }}/contributing/">guide on how to collect sentences</a>.
   </span>
 </h2>
 
@@ -28,7 +28,7 @@ title: "Reporting"
       <p class="form-text text-muted">This address is required for any questions we might have.</p>
     </div>
     <div class="form-group">
-      <label for="sentenceInput">Enter your sentences here (max 5'000 characters). Please read the <a href="{{ site.baseurl }}/faq/">FAQ</a> first. (required)</label>
+      <label for="sentenceInput">Enter your sentences here (max 5,000 characters). Please read the <a href="{{ site.baseurl }}/contributing/">sentence collection guide</a> first. (required)</label>
       <p class="form-error sentence-error hidden">We can only handle a maxiumum of 5'000 characters. Please submit your sentences splitted in multiple submissions or add them in a document (for example <a href="https://pastebin.com/" target="_blank">pastebin</a>) and post the public link to it here.</p>
       <textarea id="sentenceInput"></textarea>
     </div>
