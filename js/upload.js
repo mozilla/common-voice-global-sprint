@@ -21,7 +21,12 @@ const ReportingForm = {
     var verifyValue = 'I certify that I either created these sentences, or got them from a public domain source';
 
     if (!verify || !emailValue || !sentenceValue || !languageValue) {
-      document.querySelector('.form-error').classList.remove('hidden');
+      document.querySelector('.general-error').classList.remove('hidden');
+      return false;
+    }
+
+    if (sentenceValue.length > 5000) {
+      document.querySelector('.sentence-error').classList.remove('hidden');
       return false;
     }
 

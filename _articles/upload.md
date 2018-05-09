@@ -28,7 +28,8 @@ title: "Reporting"
       <p class="form-text text-muted">This address is required for any questions we might have.</p>
     </div>
     <div class="form-group">
-      <label for="sentenceInput">Enter your sentences here. Please read the <a href="{{ site.baseurl }}/faq/">FAQ</a> first. (required)</label>
+      <label for="sentenceInput">Enter your sentences here (max 5'000 characters). Please read the <a href="{{ site.baseurl }}/faq/">FAQ</a> first. (required)</label>
+      <p class="form-error sentence-error hidden">We can only handle a maxiumum of 5'000 characters. Please submit your sentences splitted in multiple submissions or add them in a document (for example <a href="https://pastebin.com/" target="_blank">pastebin</a>) and post the public link to it here.</p>
       <textarea id="sentenceInput"></textarea>
     </div>
     <div class="form-group">
@@ -42,7 +43,7 @@ title: "Reporting"
     <div class="form-group">
       <input type="checkbox" class="form-control" id="verifyInput"> I certify that I either created these sentences, or got them from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a> (required)
     </div>
-    <p class="form-error hidden">Please check all form fields to make sure everything required is filled out!</p>
+    <p class="form-error general-error hidden">Please check all form fields to make sure everything required is filled out!</p>
     <button type="submit" class="button submit-button">Submit</button>
   </form>
 
