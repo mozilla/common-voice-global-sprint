@@ -365,8 +365,8 @@ footer .footer-content a {
 }
 
 .home header .intro {
-  padding-top: 200px;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .home .description-container {
@@ -377,9 +377,8 @@ footer .footer-content a {
 .home .description {
   margin: 0 auto;
   margin-top: -200px;
-  width: 50%;
+  width: 60%;
   display: block;
-  text-align: center;
 }
 
 .home .description h2 {
@@ -388,9 +387,10 @@ footer .footer-content a {
   font-family: 'Zilla Slab';
   font-size: 28px;
   font-weight: bold;
-  letter-spacing: 6.2px;
+  letter-spacing: 2.5px;
   color: #33525d;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .home .description p {
@@ -435,6 +435,8 @@ footer .footer-content a {
 }
 
 .home .info-buttons {
+  /* hide this to call more attention to get involved button */
+  display: none;
   background-image: linear-gradient(to bottom, #535382, #2d2c55);
 }
 
