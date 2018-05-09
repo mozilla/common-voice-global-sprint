@@ -623,6 +623,11 @@ footer .footer-content a {
   width: 70%;
   margin: 0 auto;
 }
+@media all and (max-width: 768px) {
+  .reporting #header-text {
+    width: 92%;
+  }
+}
 
 .form-error {
   color: #ff0000;
