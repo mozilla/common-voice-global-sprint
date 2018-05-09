@@ -3,9 +3,10 @@ layout: simple
 title: How to Collect Sentences
 ---
 
-# How to Collect Sentences
+# Help us Collect Sentences.
 
-<div class="content-box" markdown="1">
+<div class="content-box contributing" markdown="1">
+In order to gather voice data in your language(s), we first need thousands of sentences for people to read. So we are asking you to submit as many sentences as possible in your language(s) so future contributors can read them on the Common Voice website.
 
 There are two ways to get sentences:
 

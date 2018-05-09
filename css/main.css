@@ -19,6 +19,10 @@ h1 {
   color: #558194;
 }
 
+h1#help-us-collect-sentences {
+  text-align: center;
+}
+
 @media all and (max-width: 768px) {
   h1 {
     margin-top: 0;
@@ -579,7 +583,9 @@ footer .footer-content a {
   padding: 20px 40px 20px 40px;
   max-width: 60%;
   color: #49758a;
-  margin-top: 20px;
+  margin: 20px auto;
+  font-size: 19px;
+  line-height: 26px;
 }
 
 .content-box--full {
@@ -593,16 +599,12 @@ footer .footer-content a {
 .content-box h3 {
   border-top: solid 3px rgba(195, 232, 248, 0.5);
   padding-top: 18px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 26px;
 }
 
 .content-box h3:first-of-type {
   border-top: none;
-}
-
-.content-box p {
-  line-height: 26px;
 }
 
 @media all and (max-width: 768px) {
