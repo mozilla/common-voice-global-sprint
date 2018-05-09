@@ -577,11 +577,12 @@ footer .footer-content a {
 }
 
 .content-box {
+  box-sizing: border-box;
   border-radius: 2px;
   background-color: #ffffff;
   box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.1);
   padding: 20px 40px 20px 40px;
-  max-width: 60%;
+  max-width: 70%;
   color: #49758a;
   margin: 20px auto;
   font-size: 19px;
@@ -616,6 +617,11 @@ footer .footer-content a {
 
 .reporting {
   font-family: 'Fira Sans';
+}
+
+.reporting #header-text {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .form-error {
@@ -702,20 +708,21 @@ footer .footer-content a {
 }
 
 .capitalize {
-  font-size: 100px;
-  padding-right: 6px;
-}
-.capitalize-content {
   display: inline-block;
-  max-width: 90%;
+  position: relative;
+  top: -15px;
+  font-size: 70px;
+  height: 55px;
+  padding-right: 6px;
+  float: left;
+}
+
+.capitalize-content {
+  padding-top: 10px;
+  display: inline-block;
 }
 
 @media all and (max-width: 768px) {
-  .capitalize {
-    font-size: 40px;
-    padding-right: 0;
-  }
-
   .capitalize-content {
     display: inline;
   }

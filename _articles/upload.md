@@ -7,13 +7,14 @@ title: "Reporting"
 
 # Submit your sentences
 
-<h2>
-  <span class="capitalize">T</span>
-  <span class="capitalize-content">
-    hanks for helping collecting sentences for Common Voice!<br />
-    Please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.<br />
-    Please also read the <a href="{{ site.baseurl }}/contributing/">guide on how to collect sentences</a>.
-  </span>
+<h2 id="header-text">
+  <p>
+    <span class="capitalize-content">
+      <span class="capitalize">T</span>hanks for helping collecting sentences for Common Voice!<br />
+      <b>Please read the <a href="{{ site.baseurl }}/contributing/">guide on how to collect sentences</a> before completing this form.</b><br />
+    </span>
+  </p>
+    Also, please make sure that the sentences you enter below are from a <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">public domain source</a>.
 </h2>
 
 <div class="content-box">
