@@ -182,7 +182,7 @@ h2 {
 }
 
 #sentenceInput {
-  width: 50%;
+  width: 60%;
   height: 10rem;
   display: block;
 }
@@ -657,19 +657,22 @@ footer .footer-content a {
 #reporting-form label {
   font-size: 20px;
   letter-spacing: 0.3px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #reporting-form p {
   font-size: 14px;
   font-style: italic;
   letter-spacing: 0.2px;
+  margin: 7px;
+  padding-left: 5px;
 }
 
 #reporting-form input {
-  width: 50%;
+  width: 60%;
   height: 30px;
   font-size: 20px;
+  margin-bottom: 45px;
 }
 
 #reporting-form fieldset {

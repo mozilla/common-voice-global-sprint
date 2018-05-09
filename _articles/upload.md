@@ -24,13 +24,18 @@ title: "Reporting"
       <input type="text" class="form-control" id="nicknameInput" placeholder="Enter your nickname">
     </div>
     <div class="form-group">
-      <label for="emailInput">Email (required)</label>
+      <label for="emailInput">Email (required)
+      <p class="form-text text-muted">This address is required for any questions we might have.</p></label>
       <input type="text" class="form-control" id="emailInput" placeholder="Enter your email address">
-      <p class="form-text text-muted">This address is required for any questions we might have.</p>
     </div>
     <div class="form-group">
-      <label for="sentenceInput">Enter your sentences here (max 5,000 characters). Please read the <a href="{{ site.baseurl }}/contributing/">sentence collection guide</a> first. (required)</label>
-      <p class="form-error sentence-error hidden">We can only handle a maxiumum of 5'000 characters. Please submit your sentences splitted in multiple submissions or add them in a document (for example <a href="https://pastebin.com/" target="_blank">pastebin</a>) and post the public link to it here.</p>
+      <label for="sentenceInput">Enter your sentences here (max 5,000 characters).<br />
+        Please read the <a href="{{ site.baseurl }}/contributing/">sentence collection guide</a> first. (required)
+        <p class="form-error sentence-error hidden">We can only handle a maxiumum of 5,000 characters. Please submit your sentences splitted in multiple submissions or add them in a document (for example <a href="https://pastebin.com/" target="_blank">pastebin</a>) and post the public link to it here.</p>
+        <p class="form-text text-muted">
+        If you have less than 100 sentences, you may paste them directly below. If you 
+        have <b>more than 100 sentences</b> please use an external service like <a href="https://pastebin.com/">pastebin</a>, github, or anyplace which has a public URL. Then please put the link to your sentences in this field. Thank you for reading this!</p>
+      </label>
       <textarea id="sentenceInput"></textarea>
     </div>
     <div class="form-group">
