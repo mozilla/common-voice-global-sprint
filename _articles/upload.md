@@ -43,7 +43,12 @@ title: "Reporting"
       <input type="text" class="form-control" id="languageInput" placeholder="Language of the sentences">
     </div>
     <div class="form-group">
-      <label for="sourceInput">Link to the source of the sentences</label>
+      <label for="sourceInput">
+        Link to the source of the sentences
+        <p class="form-text text-muted">
+          Where did you find this material?
+        </p>
+      </label>
       <input type="text" class="form-control" id="sourceInput" placeholder="Enter your source">
     </div>
     <div class="form-group">
