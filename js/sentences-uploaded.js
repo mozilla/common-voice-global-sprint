@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var ADDED_OUTSIDE_COUNT = 2460 + 400 + 1400 + 1321;
+  var ADDED_OUTSIDE_COUNT = 2460 + 400 + 1400 + 7800;
   var END_DATE = new Date('2018-05-10');
   var today = new Date();
   var distance = END_DATE - today;
