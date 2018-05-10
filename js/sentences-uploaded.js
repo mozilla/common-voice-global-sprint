@@ -1,6 +1,7 @@
 (function() {
   'use strict';
 
+  var ADDED_OUTSIDE_COUNT = 2460;
   var END_DATE = new Date('2018-05-10');
   var today = new Date();
   var distance = END_DATE - today;
@@ -66,7 +67,7 @@
   function processInfo(data) {
     var sentences = splitSentences(data);
     var uniqueSentences = getUnique(sentences);
-    var totalUniqueSentences = uniqueSentences.length;
+    var totalUniqueSentences = uniqueSentences.length + ADDED_OUTSIDE_COUNT;
     sitesTestedElement.textContent = 'At least ' + totalUniqueSentences + ' sentences submitted!';
     sitesTestedElement.classList.remove('hidden');
   }
