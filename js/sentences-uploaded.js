@@ -67,7 +67,7 @@
     var sentences = splitSentences(data);
     var uniqueSentences = getUnique(sentences);
     var totalUniqueSentences = uniqueSentences.length;
-    sitesTestedElement.textContent = totalUniqueSentences + ' sentences already!';
+    sitesTestedElement.textContent = 'At least ' + totalUniqueSentences + ' sentences submitted!';
     sitesTestedElement.classList.remove('hidden');
   }
 
