@@ -67,6 +67,7 @@
   function processInfo(data) {
     var sentences = splitSentences(data);
     var uniqueSentences = getUnique(sentences);
+    console.log('number of sentences without outside submission', uniqueSentences.length);
     var totalUniqueSentences = uniqueSentences.length + ADDED_OUTSIDE_COUNT;
     sitesTestedElement.textContent = 'At least ' + totalUniqueSentences + ' sentences submitted!';
     sitesTestedElement.classList.remove('hidden');
