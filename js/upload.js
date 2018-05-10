@@ -30,6 +30,8 @@ const ReportingForm = {
       return false;
     }
 
+    sentenceValue = sentenceValue.replace('\n', '|');
+
     var submitURL = baseURL +
         nicknameEntry + "=" + nicknameValue + "&" +
         emailEntry + "=" + emailValue + "&" +
