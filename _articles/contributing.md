@@ -38,9 +38,4 @@ Once you have found a collection of sentences, you can submit them using our [up
 * Unfortunately we can’t have Wikimedia articles yet. So do not copy paste from there.
 * Two great resources to look into are: [Common Crawl](https://commoncrawl.org/) and [Open Subtitles](https://www.opensubtitles.org/). If you find any similar collection in your local language, that’s great! Do share with us on [our slack channel](https://common-voice-slack-invite.herokuapp.com/) so we can distribute it to the rest of the volunteers.
 
-### Localizing Common Voice
-Also note, it would be good to check if the language you are interested in is already being localized for the website. Check here: [https://pontoon.mozilla.org/projects/common-voice/](https://pontoon.mozilla.org/projects/common-voice/)
-
-If it’s not being localized, please help us localize it! Email [mhenretty@mozilla.com](mailto:mhenretty@mozilla.com) to add your language to Common Voice, and help translate it.
-
 </div>
