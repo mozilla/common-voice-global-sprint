@@ -2,7 +2,7 @@
   'use strict';
 
   // Taken from pastebins                       DE                         ZH-TW  ES
-  var ADDED_OUTSIDE_COUNT = 2460 + 400 + 1400 + 7800 + 2417 + 2576 + 357 + 1340 + 290;
+  var ADDED_OUTSIDE_COUNT = 2460 + 400 + 1400 + 7800 + 2417 + 2576 + 357 + 1340 + 640;
   var END_DATE = new Date('2018-05-10');
   var today = new Date();
   var distance = END_DATE - today;
